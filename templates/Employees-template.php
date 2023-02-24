@@ -1,4 +1,4 @@
-<h2 class="text-center text-primary"><u>Register</u> </h2>
+<h2 class="text-center text-primary"><u  class="text-danger">Register</u> </h2>
 <div class="container">
     <div class="row">
         <div class="mx-auto col-10 col-md-8 col-lg-6 card shadow">
@@ -24,7 +24,7 @@
                 </div> -->
                 <div class="row justify-content-center">
                         <div class="col-xs-4 col-sm-4 col-md-4">
-                            <input type="submit" name="submitmarks" value="Submit" class="btn btn-primary px-5 mt-2">
+                            <input type="submit" name="submitmarks" value="Submit"  class="text-danger">
                         </div>
 
                 </div>
@@ -35,7 +35,7 @@
 </div>
 
 
-<h2 class="text-center text-warning mt-3"><u>List</u></h2>
+<h2 class="text-center text-warning mt-3"><u  class="text-danger">List</u></h2>
 <?php
 global $wpdb;
 $table = $wpdb->prefix.'marks';
@@ -63,14 +63,11 @@ $trainees = $wpdb->get_results("SELECT * FROM $table");
                     <td>
                         <form action="" method="post">
                             <input type="hidden" name="id" value="<?php echo $trainee->marks_id; ?>">
-                            <input type="submit" name="delbtn" class="btn btn-danger" value="Delete">
+                            
                         </form>
                     </td>
                     <td>
-                        <form action="" method="post">
-                            <input type="hidden" name="marks_id" value="<?php echo $trainee->marks_id; ?>">
-                            <input type="submit" name="add_trainee" class="btn btn-danger" value="Add">
-                        </form>
+                        
                     </td>
                 </tr>
             <?php } ?>

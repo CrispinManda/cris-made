@@ -1,4 +1,4 @@
-<h2 class="text-center text-warning mt-3"><u>New Employees</u></h2>
+<h2 class="text-center text-warning mt-3"><u class="text-danger>New Employees</u></h2>
 
 <div class="container">
     <table class="table table-striped">

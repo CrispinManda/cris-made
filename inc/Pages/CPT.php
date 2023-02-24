@@ -1,6 +1,6 @@
 <?php
 /**
- * @package           WilsonFeatures
+ * @package Cris Plugin
  */
 
  namespace Inc\Pages;
@@ -239,14 +239,7 @@ use \Inc\Base\Controller;
         }
         
         }
-    /*-------------------------------------------------------------------------*/
-    /*                        CUSTOM TERM FUNCTION                             */
-    /*-------------------------------------------------------------------------*/
-
-    // function init_custom_terms(){
-    //     $term = self::custom_get_terms($postID, $term);
-    //     return $term;
-    // }
+ 
 
     function custom_get_terms($postID, $term){
       $terms_list = wp_get_post_terms($postID, $term);

@@ -35,7 +35,7 @@
 </div>
 
 
-<h2 class="text-center text-warning mt-3"><u>View Marks</u></h2>
+<h2 class="text-center text-warning mt-3"><u>List</u></h2>
 <?php
 global $wpdb;
 $table = $wpdb->prefix.'marks';
@@ -49,10 +49,7 @@ $trainees = $wpdb->get_results("SELECT * FROM $table");
                 <th>Date Created</th>
                 <th>Name</th>
                 <th>Email</th>
-                <th>Attendance Marks</th>
-                <th>Project Marks</th>
-                <th>Action</th>
-                <th>Action</th>
+            
             </tr>
         </thead>
         <tbody>
@@ -62,8 +59,7 @@ $trainees = $wpdb->get_results("SELECT * FROM $table");
                     <td><?php echo $trainee->event_date;?></td>
                     <td><?php echo $trainee->name;?></td>
                     <td><?php echo $trainee->email;?></td>
-                    <td><?php echo $trainee->attendance;?></td>
-                    <td><?php echo $trainee->project;?></td>
+                
                     <td>
                         <form action="" method="post">
                             <input type="hidden" name="id" value="<?php echo $trainee->marks_id; ?>">

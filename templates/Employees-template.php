@@ -14,14 +14,6 @@
                     <label for="">Email:</label>
                     <input type="text" name="email" id="email" class="form-control" placeholder="Input email">
                 </div>
-                <!-- <div class="form-group">
-                    <label for="">Attendance:</label>
-                    <input type="number" min="0" max="100" name="attendance" id="attendance" class="form-control" placeholder="Input attendance">
-                </div>
-                <div class="form-group">
-                    <label for="">Project:</label>
-                    <input type="number" min="0" max="100" name="project" id="project" class="form-control" placeholder="Marks out of 10">
-                </div> -->
                 <div class="row justify-content-center">
                         <div class="col-xs-4 col-sm-4 col-md-4">
                             <input type="submit" name="submitmarks" value="Submit"  class="text-danger">

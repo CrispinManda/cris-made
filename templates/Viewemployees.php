@@ -7,8 +7,6 @@
                 <th>Date Created</th>
                 <th>Name</th>
                 <th>Email</th>
-                <!-- <th>Attendance Marks</th>
-                <th>Project Marks</th> -->
             </tr>
         </thead>
         <tbody>

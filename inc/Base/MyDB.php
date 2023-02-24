@@ -6,17 +6,9 @@
  namespace Inc\Base;
 
  class MyDB{
-/*-------------------------------------------------------------------------*/
-/*                        FETCHING DATA FROM DB                            */
-/*-------------------------------------------------------------------------*/
+
     function register(){
-        // global $wpdb;
-        // $table = 'wp_admin_contact';
-        // if($this->$table==true){
-        //     echo "Table Exists already";
-        // }else{
-        //     $this->create_table_admin_contact();
-        // }
+
         $this->pass_data_to_admin_contact();
     }
 
